@@ -1,0 +1,48 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build files
+dist/
+build/
+coverage/
+
+# Dependencies cache
+.npm/
+.pnpm-store/
+
+# Optional: Database files
+*.sqlite
+*.sqlite-journal
+
+# Optional: Ignore Docker files if not needed
+docker-compose.override.yml
+docker-compose.override.yaml
