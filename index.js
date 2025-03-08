@@ -20,6 +20,7 @@ app.get("/notes", async (req, res) => {
   }
 });
 
+//sunny was here
 
 // GET Note by ID
 app.get("/notes/:id", async (req, res) => {
