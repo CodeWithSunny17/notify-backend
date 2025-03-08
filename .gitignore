@@ -46,3 +46,7 @@ coverage/
 # Optional: Ignore Docker files if not needed
 docker-compose.override.yml
 docker-compose.override.yaml
+
+
+#env
+.env
